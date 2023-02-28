@@ -1,3 +1,2 @@
-print("hello word")
-Print("Meu primeiro código no github")
-
+print("hello world")
+print("Meu primeiro código github")
