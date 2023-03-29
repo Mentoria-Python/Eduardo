@@ -5,7 +5,7 @@ from datetime import datetime, date, timedelta
 
 def diferenca(data, meses):
     data_1 = datetime.strptime(data, '%d-%m-%Y')
-    meses_conv = timedelta(months=meses)
+    meses_conv = timedelta(days=30*meses)
     resultado = data_1 + meses_conv
     return resultado
 
