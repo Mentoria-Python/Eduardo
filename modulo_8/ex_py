@@ -1,0 +1,16 @@
+numero_pessoas = int(input('Digite o número de pessoas que deseja inserir: '))
+
+pessoas = []
+
+for i in range(numero_pessoas):
+    print(f'{i+1} pessoa:')
+    nome = input('Nome: ')
+    idade = int(input('Idade: '))
+    telefone = input('Telefone: ')
+    endereco = input('Endereco: ')
+    pessoa = {'nome': nome, 'idade': idade, 'telefone': telefone, 'endereco': endereco}
+    pessoas.append(pessoa)
+
+print('As pessoas são')
+for pessoa in pessoas:
+    print(pessoa)
